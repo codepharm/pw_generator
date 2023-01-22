@@ -9,3 +9,4 @@ https://scrimba.com/learn/learnjavascript/solo-project-password-generator-cR9B46
 - Generate two random passwords
 - Each password must be 15 characters long
 - Click `Generate passwords` button to generate the passwords
+- Design must match Figma above
