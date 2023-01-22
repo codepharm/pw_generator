@@ -60,3 +60,11 @@ hr {
   height: 2rem;
   width: 10rem;
 }
+
+#password1 {
+  color: lime;
+}
+
+#password2 {
+  color: pink;
+}
