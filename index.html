@@ -8,9 +8,12 @@
             <div class="greenText">random password</div>
             <div class="smallerText">Never use an insecure password again</div>
         </section>
-        <button id="pw-generator">Generate passwords</button>
-        <h1></h1>
-        <h2></h2>
+        <button id="pw-generator" onclick="console.log(generatePassword(), generatePassword())">Generate passwords</button>
+        <hr>
+        <section id="passwords">
+          <div id="password1" class="generatedPassword"></div>
+          <div id="password2" class="generatedPassword"></div>
+        </section>
         <script src="index.js"></script>
     </body>
 </html>

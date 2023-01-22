@@ -16,4 +16,3 @@ const generatePassword = () => {
   return password.join('');
 }
 
-console.info(generatePassword(), generatePassword())

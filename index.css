@@ -43,3 +43,20 @@ section div {
   margin-top: 40px;
   padding: 9px 17px 9px 15px;
 }
+
+hr {
+  opacity: 0.125;
+  margin: 1.5rem 0;
+}
+
+#passwords {
+  display: flex;
+  gap: 1rem;
+}
+
+.generatedPassword {
+  background-color: #273549;
+  border-radius: 6px;
+  height: 2rem;
+  width: 10rem;
+}
