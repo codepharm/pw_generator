@@ -1,3 +1,28 @@
 body {
-  margin: 0;
+    position: absolute;
+    color: #FFFFFF;
+    width: 354px;
+    /* height: 80px; */
+    left: 52px;
+    /* top: 115px; */
+    /* margin: 0; */
+    background-color: #1f2937;
+    
+}
+
+#heading {
+    font-family: 'Karla';
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.3em;
+   
+}
+
+#pw-generator {
+    background-color: #10B981;
+    color: #FFFFFF;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 9px 17px 9px 15px;
+    
 }
