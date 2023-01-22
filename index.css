@@ -1,28 +1,45 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
 body {
-    position: absolute;
-    color: #FFFFFF;
-    width: 354px;
-    /* height: 80px; */
-    left: 52px;
-    /* top: 115px; */
-    /* margin: 0; */
-    background-color: #1f2937;
-    
+  position: absolute;
+  color: #ffffff;
+  /* width: 354px; */
+  /* height: 80px; */
+  left: 52px;
+  /* top: 115px; */
+  /* margin: 0; */
+  background-color: #1f2937;
 }
 
 #heading {
-    font-family: 'Karla';
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 1.3em;
-   
+  font-family: "Karla";
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.3em;
+}
+
+section div {
+  line-height: 1.125;
+}
+
+.greenText {
+  color: #4adf86;
+}
+
+.smallerText {
+  font-size: 1rem;
+  font-weight: 200;
+  padding-top: 10px;
 }
 
 #pw-generator {
-    background-color: #10B981;
-    color: #FFFFFF;
-    justify-content: center;
-    margin-top: 40px;
-    padding: 9px 17px 9px 15px;
-    
+  background-color: #10b981;
+  border-radius: 6px;
+  color: #ffffff;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 9px 17px 9px 15px;
 }
